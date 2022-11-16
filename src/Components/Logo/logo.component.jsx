@@ -1,14 +1,15 @@
 import Tilt from "react-parallax-tilt";
+import "./logo.css";
+import brain from "./brain.png";
 
 const Logo = () => {
   return (
-    <div className="ma4 mt0">
+    <div className="ma4 mt0 uwu" style={{ height: "150", width: "150px" }}>
       <Tilt>
-        <div
-          className="br2 shadow-2"
-          style={{ height: "150px", width: "150px" }}
-        >
-          <h1>React Parallax Tilt 👀</h1>
+        <div className="br2 shadow-2" style={{}}>
+          <div className="p-3">
+            <img src={brain} alt="brain logo" />
+          </div>
         </div>
       </Tilt>
     </div>
